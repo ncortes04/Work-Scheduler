@@ -3,6 +3,7 @@ body {
     font-size: 16px;
     line-height: 1;
   }
+  /* added to make the contentnot adjust width according to body element*/
   .container{
     max-width: 1200px;
   }
@@ -84,7 +85,7 @@ body {
     transition: all 0.3s ease-in-out;
   }
   
-  
+  /* added to set size for the image */
   #saveJPG{
     width: 50px;
   }
